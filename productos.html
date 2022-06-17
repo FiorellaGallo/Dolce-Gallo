@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand bg-white bg-opacity-75 rounded-circle border " href="./index.html">Dolce
+                    Carola</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- main -->
+    <div style="overflow-x: hidden;">
+        <div class="col">
+            <div class="col  text-center bg-info fs-1 ">
+                <div class="p-3 bg-light bg-opacity-50  border-info border-start-0 rounded-end">
+                    Tortas y pasteles
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-5 m-5 fs-6">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./asset/productos-tortas/1.jpg" class="card-img-top"
+                                style="height:15rem; object-fit:cover ;" alt="torta-frutilla">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="./asset/productos-tortas/2.jpg" class="card-img-top"
+                                style="height:15rem; object-fit:cover ;" alt="torta-crema">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="./asset/productos-tortas/3.jpg" class="card-img-top"
+                                style="height:15rem; object-fit:cover ;" alt="chesscake-frutilla">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-danger lg m-3 fs-3">Ver más</button>
+                <div class="col text-center bg-warning fs-1">
+                    <div class="p-3 bg-light bg-opacity-50  border-info border-start-0 rounded-end">
+                        Facturas y cookies
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-5 p-5 fs-6">
+                        <div class="col">
+                            <div class="card">
+                                <img src="./asset/productos-facturas/1.jpg" class="card-img-top"
+                                    style="height:15rem; object-fit:cover ;" alt="croissant">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./asset/productos-facturas/2.jpg" class="card-img-top"
+                                    style="height:15rem; object-fit:cover ;" alt="cookies">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./asset/productos-facturas/3.jpg" class="card-img-top"
+                                    style="height:15rem; object-fit:cover ;" alt="muffinds">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-outline-success lg m-5 fs-3">Ver más</button>
+                </div>
+                <div class="col text-center bg-danger fs-1 ">
+                    <div class="p-3 bg-light bg-opacity-50  border-info border-start-0 rounded-end">
+                        Masas finas
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-5 p-5 fs-6">
+                        <div class="col">
+                            <div class="card">
+                                <img src="./asset/productos-masa-finas/1.jpg" class="card-img-top"
+                                    style="height:15rem; object-fit:cover ;" alt="trufas">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./asset/productos-masa-finas/2.jpg" class="card-img-top"
+                                    style="height:15rem; object-fit:cover ;" alt="copitos-crema">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./asset/productos-masa-finas/3.jpg" class="card-img-top"
+                                    style="height:15rem; object-fit:cover ;" alt="macarons">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-outline-secondary m-5 fs-3">Ver más</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div style="overflow-x: hidden;">
+        <div class="row ">
+            <div class="col-12 col-sm-4 bg-warning bg-opacity-25 text-center fs-6 fw-light p-3 ">
+                <section class="p-1 bg-warning bg-opacity-50">Seguinos</section>
+                <ul class="contenedor-iconos">
+                    <li><a href="https://www.facebook.com/" target="_blank">
+                            <img src="./asset/iconos/facebook.png" alt="facebook" height="100%" width="30%">
+                        </a></li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./asset/iconos/instagram.png" alt="instagram" height="100%" width="30%">
+                        </a>
+                    </li>
+                    <li><a href="https://twitter.com/" target="_blank">
+                            <img src="./asset/iconos/gorjeo.png" alt="twitter" height="100%" width="30%">
+                        </a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-4 bg-warning bg-opacity-25 text-center fs-6 fw-light p-3">
+                <section class="p-1 bg-warning bg-opacity-50">Medios de pago</section>
+                <img src="https://d26lpennugtm8s.cloudfront.net/stores/287/177/rte/medios%20de%20pago%20para%20Ohmama.jpg"
+                    alt="medios de pago" width="75% ">
+            </div>
+            <div class="col-12 col-sm-4 bg-warning bg-opacity-25 text-center fs-6 fw-light p-3 ">
+                <section class="p-1 bg-warning bg-opacity-50">Información personal</section>
+                <div class="pt-4">
+                    <div>Términos y condiciones</div>
+                    <div>Medios de envíos</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

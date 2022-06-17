@@ -1,0 +1,16 @@
+*{
+    font-family:'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-iconos{
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+    margin-top: 1.5rem; 
+    align-items: center;
+    
+}
+
+
